@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eiquetas Html</title>
+</head>
+<body>
+<h2>listas</h2>
+<!--ul es lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemnto 2</li>
+        <li>elemento 3</li>
+    </ul>
+    <br>
+    <!--esta es una lista ordenada-->
+    <ol>
+        <li>elemento1</li>
+        <li>elemento2</li>
+        <li>elemento3</li>
+    </ol>
+    <!--anidar listas poniedno en li, la propiedad de style-->
+    <ol>
+        <li style="list-style-type:lower-alpha ;">elemento1</li>
+        <li style="list-style-type:lower-alpha ;">elemento2</li>
+        <li style="list-style-type:lower-alpha ;">elemento3</li>
+    </ol>
+    <br>
+    <hr>
+    <h3>Formularios</h3>
+ Dentro de las etiquetas de form, tenemos que colocar distintas etiquetas que nos permitan recopilar infirmacion del usuario
+ <form action="/formulario" method="post">
+     <label for="nombre">Button</label>
+     <input  value="valor"type="submit" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">Text</label>
+     <input type="text" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">email</label>
+     <input type="email" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">Password</label>
+     <input type="password" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">Radio</label>
+     <input type="radio" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">Checkbox</label>
+     <input type="checkbox" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <label for="nombre">File</label>
+     <input type="file" id="nombre" name="nombre" placeholder="tu Nombre"/>
+     <br>
+     <textarea cols="50" rows="10" id="comentarios" placeholder="ingrese su comentario" name="comentarios">no admite la propiedad de value, pero entre etiquetas podemos escribir para que aparezca lo que queramos</textarea>
+     <br>
+     <input type="submit"/>
+     <button type="reset"> boton reset</button>
+     <br>
+     <button type="button"><img src="imagenes/puntos.jpg"/>soy un boton</button>
+ </form>
+    <p>la etiqueta p, es para colocar parrafos</p>
+    <br>br, es para hacer espacios
+    <h1>de las etiquetas h1 a la h6 son para titulos, esto esta relacionado con los buscadores y la indexacion de contenidos </h1>
+    la letra a mas href, nos indicara una forma de navegar entre las paginas de nuestra web o colocando https, nos enviara a una web externa, en forma de link. como por ejemoplo ir a google.
+    <a href="https://www.google.com.ar/">ir a google</a>
+    Tambien con la propiedad de target, podemos hacer que nuestra direccion se abra en otra pestana y no recargue en la misma pagina, aso
+    <a target="_blank"href="https://www.google.com.ar/">ir a google en otra pestana</a>"
+    hr es para colocar una linea en medio de la pagina, asi:
+    <hr>
+ la estiqueta span, nos indicara pintar un texto de color dentro de otro texto, como oara re,arcar algunas palabras importantes., por ejemplo asi:
+ <p>texto un poco mas largo<span style="color: blueviolet;">y este vuleve a ser de color original</span></p>
+ <hr>
+ <H3>Mostrar imagenes al usuario</H3>
+ <img src="imagenes/puntos.jpg" width="300" height="450"/>
+ <br>
+ para mostrar imagenes a los usuarios tenemos que utilizar la etiqueta img
+
+ para poder manipular alto y ancho, utilizamos la propiedad de width y heigh
+ <hr>
+ 
+</body>
+</html>
